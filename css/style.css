@@ -10,7 +10,7 @@ html {
 
 body {
 	color: Black;
-	background-color: Green;
+	/*background-color: Green;*/
 	font-family: "Helvetica Nue", sans-serif;
 }
 
@@ -18,6 +18,8 @@ body {
 	max-width: 60em;
 
 }
+
+
 
 .navbar-nav {
 	float: right;
@@ -41,7 +43,7 @@ li {
 
 .jumbotron {
 	height: 45em;
-	background: url("startup-new/images/first-background-copy.jpg") no-repeat; 
+	background: url("../../startup-new/images/first-background-copy.jpg") no-repeat; 
 	color: LightGrey;
 }
 
