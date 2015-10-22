@@ -1,3 +1,10 @@
+/* @media (min-width: 992px)
+.container {
+	width: 970px;
+} */
+
+
+
 html {
 	box-sizing: border-box;
 }
@@ -11,7 +18,7 @@ html {
 body {
 	color: Black;
 	/*background-color: Green;*/
-	font-family: "Helvetica Nue", sans-serif;
+	font-family: 'Roboto', "Helvetica Nue", sans-serif;
 }
 
 .container {
@@ -68,6 +75,12 @@ li {
 
 .cases {
 	text-align: center;
+	margin-bottom: 7em;
+}
+
+.cases > .container {
+	padding-bottom: 4em;
+	border-bottom: 1px solid LightGrey;
 }
 
 footer {
