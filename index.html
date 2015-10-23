@@ -18,15 +18,25 @@
 <body>
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
-		<img class ="logo" src="images/karma-logo.png" alt="Karma" width="26">
-			<ul class="nav navbar-nav">
-				<li class="active"><a href="#">Meet Karma</a></li>
-				<li><a href="#">How It Works</a></li>
-				<li><a href="#">Store</a></li>
-				<li><a href="#">Blog</a></li>
-				<li><a href="#">Help</a></li>
-				<li><a href="#">Login</a></li>
-			</ul>
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+        		</button>
+        		<a class="navbar-brand" href="#"><img class ="logo" src="images/karma-logo.png" alt="Karma" width="26"></a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav nav-bar right">
+					<li class="active"><a href="#">Meet Karma</a></li>
+					<li><a href="#">How It Works</a></li>
+					<li><a href="#">Store</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Help</a></li>
+					<li><a href="#">Login</a></li>
+				</ul>
+			</div>
 		</div>
 	</nav>
 	<section class="jumbotron">
@@ -73,6 +83,7 @@
 				</div>
 	</footer>
 	<!-- Latest compiled and minified JavaScript -->
+	<script src="../jquery-1.11.3.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	
 </body>
