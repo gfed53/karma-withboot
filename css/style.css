@@ -35,6 +35,7 @@ body {
 
 nav img {
 	margin-left: 3em;
+	width: 1.5em;
 }
 
 li > a {
@@ -103,3 +104,10 @@ footer {
 	padding: 0em .2em;
 
 }
+
+@media(max-width: 768px) {
+	nav img {
+		width: 1em;
+	}
+}
+
