@@ -1,15 +1,6 @@
-/* @media (min-width: 992px)
-.container {
-	width: 970px;
-} */
-
-
-
 html {
 	box-sizing: border-box;
 }
-
-
 
 *, *:before, *:after { 
 	box-sizing: inherit;
@@ -17,7 +8,6 @@ html {
 
 body {
 	color: Black;
-	/*background-color: Green;*/
 	font-family: 'Roboto', "Helvetica Nue", sans-serif;
 }
 
@@ -25,8 +15,6 @@ body {
 	max-width: 60em;
 
 }
-
-
 
 .navbar-nav {
 	float: right;
