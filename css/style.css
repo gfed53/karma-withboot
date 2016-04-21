@@ -64,10 +64,6 @@ li {
 	margin-top: 4em;
 }
 
-.btn-lg {
-	background-image: linear-gradient(to bottom,#56344D 0,#26885F 100%);
-}
-
 .btn-lg:hover {
 	background-image: linear-gradient(to bottom,#EBB386,#EBE7E4 100%);
 	background-position: 0;
