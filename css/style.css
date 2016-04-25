@@ -1,3 +1,4 @@
+/*General*/
 html {
 	box-sizing: border-box;
 }
@@ -16,6 +17,7 @@ body {
 
 }
 
+/*Navigation*/
 .navbar-nav {
 	float: right;
 	margin-right: 6em;
@@ -34,13 +36,11 @@ li > a {
 	font-weight: bold;
 }
 
-
-
 li {
-	padding: .5em;
-	
+	padding: .5em;	
 }
 
+/*Jumbotron*/
 .jumbotron {
 	height: 45em;
 	background: url("../images/first-background-copy.jpg") no-repeat center;
@@ -58,6 +58,7 @@ li {
 	color: Black; 
 }
 
+/*Cases*/
 .cases {
 	text-align: center;
 	margin-bottom: 7em;
@@ -68,6 +69,7 @@ li {
 	border-bottom: 1px solid LightGrey;
 }
 
+/*Footer*/
 footer {
 	text-align: center;
 }
@@ -89,6 +91,7 @@ footer {
 
 }
 
+/*Media Queries*/
 @media(max-width: 768px) {
 	nav img {
 		width: 1em;
